@@ -6,7 +6,7 @@ const PATHS = {
   build: path.join(__dirname, 'build'),
 };
 
-odule.exports = {
+module.exports = {
   // Entries have to resolve to files! They rely on Node
   // convention by default so if a directory contains *index.js*,
   // it resolves to that.
